@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
 
+require 'test_gem'
+
 puts "test_gem script executing"
-puts ARGV[0]
+puts "File to process is: #{ ARGV[0] }"
+
+puts "The first line of file #{ ARGV[0] } is:  #{ TestGem::MyFile.first ARGV[0] }" 

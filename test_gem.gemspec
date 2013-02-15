@@ -12,6 +12,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Helen Canzler"]
   s.email       = 'hcanzl@hotmail.com'
   s.homepage    = 'http://rubygems.org/gems/test_gem'
-  s.files       = ["lib/test_gem.rb", "lib/test_gem/version.rb", "lib/test_gem/hello.rb"]
+  s.files       = ["lib/test_gem.rb", "lib/test_gem/version.rb", "lib/test_gem/hello.rb", "lib/test_gem/my_file.rb"]
   s.executables << 'test_gem'
 end
