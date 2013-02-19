@@ -7,12 +7,12 @@ module TestGem
     
     def self.first input_file
       f = File.open input_file
-      f.gets
+      f.gets.chomp
     end
     
     def self.last input_file
       f = File.open input_file
-      f.readlines[-1]
+      f.readlines[-1].chomp
     end
     
   end

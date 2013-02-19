@@ -5,4 +5,5 @@ require 'test_gem'
 puts "test_gem script executing"
 puts "File to process is: #{ ARGV[0] }"
 
-puts "The first line of file #{ ARGV[0] } is:  #{ TestGem::MyFile.first ARGV[0] }" 
+puts "The first line of file #{ ARGV[0] } is:  #{ TestGem::MyFile.first ARGV[0] }"
+puts "The last line of file #{ ARGV[0] } is:  #{ TestGem::MyFile.last ARGV[0] }" 
